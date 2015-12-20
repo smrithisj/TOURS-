@@ -1,0 +1,42 @@
+DEVELOPED IN B.S.ABDUR RAHMAN UNIVERSITY---TOURS AND TRAVELS MANAGEMENT SYSTEM
+	
+	
+	
+	INSTRUCTOR
+	        MRS.SABIYATH FATHIMA(SENIOR GRADE)
+	
+	TEAM MEMBERS
+		
+		SANGEETA RUTH
+		120071601084
+	
+		SMRITHI.J
+		120071601100
+	
+		
+	
+	TOURS AND TRAVELS WEBSITE
+	
+	1.	Tours and travels management system  is a web based application useful for managing different types of bookings for using a single application.The objective of the project is to develop a system that automates the processes and activities of a travel and tourism agency. 
+	
+	
+	2.	The purpose is to design a system using which one can perform all operations related to traveling and sight-seeing.The website is designed using php and mysql. This website also provides the user with the facilities of booking various modes of transportations.
+
+	
+	3.	The user has the access to explore the whole website to determine his tour packages and the various transportation facilities according to his own preferences.The user also has special features such as added packages and discounts when compared to other websites in the tours tab of our website even during the last minute
+
+	
+	4.	The user first fills the online booking details such as (From,Destination,Economy,Departure,Return) which enables the user to fill in their place of visit and what kind of economy they want to travel and then they click the search button.
+	
+	
+	5.	When the user clicks on the search button it redirects to another page which shows the availability of the various transportations available and book their tours according to the preferences of the user.
+	
+	
+	6.	The applications are processed in the mysql and separate fields are created for the online booking feature where the user’s details get stored in the centralized database.
+	
+	
+	7.	Xampp server suits the best for compiling and executing the php code. Phpmyadmin supports in the creation and maintenance of mysql database and tables.
+	
+	
+	The project was developed as a part of the curriculum for the course IP lab(CS405).
+
