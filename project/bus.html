@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:#6600FF;
+    color:white;
+    text-align:center;
+    padding:5px;
+    }
+#nav {
+    line-height:30px;
+    background-color:#33FFFF;
+    height:9500px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+}
+#coolMenu li a {
+display: block;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 0.3em;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#coolMenu ul li a {
+    width: 200px;
+}
+#coolMenu li:hover ul {
+    display: block;
+}
+#coolMenu {
+    font-family: Arial;
+    font-size: 12px;
+    background: #2f8be8;
+}
+#coolMenu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#coolMenu > li:hover > a {
+    background: #f09d28;
+    color: #000;
+}
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: #f09d28;
+}
+#coolMenu ul li a {
+    color: #000;
+}
+#coolMenu ul li:hover a {
+    background: #ffc97c;
+}
+#section {
+height:700px;
+width:1000px;
+    float:left;
+    padding:10px;	 	 
+}
+</style>
+</head>
+<body>
+<div id="header">
+<h1><font face="algerian">SJ BUS BOOKING & TRAVELS</font></h1>
+<h6>ONE SITE TO BOOK ALL YOUR BUS TICKETS
+</div>
+<div id="nav">
+AC<br>
+NON-AC<br>
+AC SLEEPER<br>
+NON-AC SLEEPER<br>
+</div>
+<div id="section">
+<ul id="coolMenu">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT US</a></li>
+    <li>
+        <a href="#">BUSES</a>
+        <ul>
+            <li><a href="#">SRM TRAVELS</a></li>
+            <li><a href="#">KPN TRAVELS</a></li>
+            <li><a href="#">JOTHI TRAVELS</a></li>
+        </ul>
+    </li>
+        <li><a href="#">CONTACT US</a></li>
+</ul>
+<marquee behavior="alternate" direction="right" width="1500px">
+<img src="a.jpg " width="250" height="100" alt="" />
+<img src= "b.jpg" width="250" height="100" alt="" />
+<img src="c.jpg" width="250" height="100" alt="" />
+<img src="d.jpg "width="250" height="100" alt=""/>
+</marquee>
+
+<div>
+<p><font face="comic sans ms",font size="5px">ONLINE BOOKING</font></p>
+<table>
+<tr>
+                  <td bgcolor="#fdf5ef"><table width="100%" border="0" align="center" cellpadding="2" cellspacing="2"  style="margin: 0px;">
+                      <tbody>
+                        <tr>
+                          <td height="22" colspan="2" align="center" valign="top" bordercolor="#000000" bgcolor="#FFFFFF" style="margin-top: 0px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td height="22" bordercolor="#000000" bgcolor="#F9F9F9"><font color="#FF0000">*</font><b>From:</b></td>
+                          <td bordercolor="#000000" bgcolor="#F9F9F9"><input name="name" size="15" type="text" />                          </td>
+                        </tr>
+                        <tr>
+                          <td height="22" bordercolor="#000000" bgcolor="#F9F9F9"><font color="#FF0000">*</font><b>To:</b></td>
+                          <td bordercolor="#000000" bgcolor="#F9F9F9"><input name="email" type="text" id="email" size="15" />                          </td>
+                        </tr>
+                       <tr>
+                          <td bordercolor="#000000" bgcolor="#F9F9F9"><b><font color="#FF0000">*</font>Departure<font color="#FF0000">
+                         </font> </b></td>
+                          <td bordercolor="#000000" bgcolor="#F9F9F9">
+<select name="date" size="1" style="font-size: 10px;">
+ <option selected value="">DATE</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                              <option value="13">13</option>
+                              <option value="14">14</option>
+                              <option value="15">15</option>
+                              <option value="16">16</option>
+                              <option value="17">17</option>
+                              <option value="18">18</option>
+                              <option value="19">19</option>
+                              <option value="20">20</option>
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                              <option value="23">23</option>
+                              <option value="24">24</option>
+                              <option value="25">25</option>
+                              <option value="26">26</option>
+                              <option value="27">27</option>
+                              <option value="28">28</option>
+                              <option value="29">29</option>
+                              <option value="30">30</option>
+                              <option value="31">31</option>
+                            </select>  
+                        <select name="month" size="1" style="font-size: 10px;">
+                              <option value="">MM</option>
+                              <option value="January">Jan</option>
+                              <option value="February">Feb</option>
+                              <option value="March">Mar</option>
+                              <option value="April">Apr</option>
+                              <option value="May">May</option>
+                              <option value="June">Jun</option>
+                              <option value="July">Jul</option>
+                              <option value="August">Aug</option>
+                              <option value="September">Sep</option>
+                              <option value="October">Oct</option>
+                              <option value="November">Nov</option>
+                              <option value="December">Dec</option>
+                            </select>
+                            &nbsp;&nbsp;
+                            <select name="year" size="1" style="font-size: 10px;">
+                              <option value="">YYYY</option>
+                              <option value="2015">2015</option>
+                              <option value="2016">2016</option>
+                            </select>
+                                              </td>
+                        </tr>
+ <tr>
+                          <td bordercolor="#000000" bgcolor="#F9F9F9"><b><font color="#FF0000">*</font>Return<font color="#FF0000">
+                            </font> </b></td>
+                          <td bordercolor="#000000" bgcolor="#F9F9F9">
+<select name="date" size="1" style="font-size: 10px;">
+ <option selected value="">Date</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                              <option value="13">13</option>
+                              <option value="14">14</option>
+                              <option value="15">15</option>
+                              <option value="16">16</option>
+                              <option value="17">17</option>
+                              <option value="18">18</option>
+                              <option value="19">19</option>
+                              <option value="20">20</option>
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                              <option value="23">23</option>
+                              <option value="24">24</option>
+                              <option value="25">25</option>
+                              <option value="26">26</option>
+                              <option value="27">27</option>
+                              <option value="28">28</option>
+                              <option value="29">29</option>
+                              <option value="30">30</option>
+                              <option value="31">31</option>
+                            </select>  
+                        <select name="month" size="1" style="font-size: 10px;">
+                              <option value="">Month</option>
+                              <option value="January">Jan</option>
+                              <option value="February">Feb</option>
+                              <option value="March">Mar</option>
+                              <option value="April">Apr</option>
+                              <option value="May">May</option>
+                              <option value="June">Jun</option>
+                              <option value="July">Jul</option>
+                              <option value="August">Aug</option>
+                              <option value="September">Sep</option>
+                              <option value="October">Oct</option>
+                              <option value="November">Nov</option>
+                              <option value="December">Dec</option>
+                            </select>
+                            &nbsp;&nbsp;
+                            <select name="year" size="1" style="font-size: 10px;">
+                              <option value="">Year</option>
+                              <option value="2011">2011</option>
+                              <option value="2012">2012</option>
+                            </select>
+                            
+                      </td>
+                        </tr>  </tr>
+                                        
+                          <td height="22" bordercolor="#000000" bgcolor="#F9F9F9"><b><font color="#FF0000">*</font>Number of passengers
+                           </b></td>
+                          <td bordercolor="#000000" bgcolor="#F9F9F9"><select name="adult" size="1" style="font-size: 10px;">
+                              <option selected value="">Adults</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10+</option>
+                            </select>
+                            &nbsp;&nbsp;
+                            <select name="children" size="1" style="font-size: 10px;">
+                              <option selected value="">Children</option>
+                              <option value="0">0</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10+</option>
+                            </select>                          </td>
+                        </tr>
+<tr>
+<td align="right"><input type="button" onclick=" " value="SEARCH BUSES"></td>
+<td align="right"><input type="button" onclick=" " value="BOOK NOW"></td>
+</tr> </table> </div> 
+</div>
+</body>
+</html>
+

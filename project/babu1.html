@@ -1,0 +1,348 @@
+<html>
+<head>
+<style>
+
+#header {
+    background-color:#00008B;
+    color:white;
+    text-align:center;
+    padding:5px;
+    }
+#nav {
+    line-height:30px;
+    background-color:#CD5C5C;
+    height:1000px;
+    width:250px;
+    float:left;
+    padding:5px;	      
+}
+
+#section {
+height:500px;
+width:1200px;
+    background-image:"dd.jpg";
+    float:left;
+    padding:10px;	 	 
+}
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+}
+#coolMenu li a {
+display: block;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 0.3em;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#coolMenu ul li a {
+    width: 200px;
+}
+#coolMenu li:hover ul {
+    display: block;
+}
+#coolMenu {
+    font-family: Arial;
+    font-size: 12px;
+    background: #2f8be8;
+}
+#coolMenu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#coolMenu > li:hover > a {
+    background: #f09d28;
+    color: #000;
+}
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: #f09d28;
+}
+#coolMenu ul li a {
+    color: #000;
+}
+#coolMenu ul li:hover a {
+    background: #ffc97c;
+}
+#section {
+height:500px;
+width:1200px;
+    float:left;
+    padding:10px;	 	 
+}
+
+#footer {
+    background-color:#000066;
+height:120px;
+width:1680px;
+   color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+</style>
+</head>
+<script language="JavaScript" >
+
+function getSubmit(){
+var xmlhttp;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET","aar.php?name="+document.getElementById("name").value+"&password="+document.getElementById("password").value+"&sample="+document.getElementById("sample").value,false);
+xmlhttp.send(null);
+}
+</script>
+ 
+  <body background="tour1.jpg">
+   
+<div id="header">
+<h1><font face="algerian">Escape to Paradise</font></h1>
+<h6>FLY ANYWHERE!!!FLY EVERYWHERE!!!
+</div>
+<div id="nav">
+TOURS<br>
+PACKAGES<br>
+OFFERS<br>
+TRAVEL INFORMATIONS<br>
+FLIGHT FARES<BR>
+</div>
+<div id="section">
+<ul id="coolMenu">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">TOURS</a></li>
+    <li>
+        <a href="#">HOTELS</a>
+        <ul>
+            <li><a href="http://in.hotels.com/ho364424/hotel-helliniko-paros-town-greece/">Helleniko</a></li>
+            <li><a href="http://www.radissonblu.com">Radisson Blu</a></li>
+            <li><a href="http://www.orientalhotel.jp/en">Kobe Japan</a></li>
+        </ul>
+    </li>
+    <li><a href="#">ABOUT US</a></li>
+    <li><a href="#">CONTACTS</a></li>
+</ul>
+
+<div>
+<marquee behavior="alternate" direction="right" width="1100px">
+<img src="aa.jpg" width="250" height="100" alt="" />
+<img src="bb.jpg" width="250" height="100" alt="" />
+<img src="cc.jpg" width="250" height="100" alt="" />
+<img src="dd.jpg" width="250" height="100" alt="" />
+</marquee>
+<div>
+<p align="center"  ><b><u><font color="red"> ITS NOT THE DESTINATION,ITS THE JOURNEY</font></u></b></p>
+<p ALIGN="left"><b><font color="000066"> Established in 1977 with a prime motive to handle domestic and inbound tourist. This tourist website was specifically started as tour operators and a travel agency. With leisure travel as a core business the company is also involved into corporate travel solutions. Escape to paradise tours owns a self owned fleet of cars, Muv's, Luxury coaches A/c and non A/c. We have access to huge infrastructure, as well as more fine tuned service development, while still offering the personalised service that has always been our strength and to ensure that quality of service is maintained at all times.</font></b></p>
+</div>
+<p><b><font face="comic sans ms",font size="5px", font color="darkblue"><center>ONLINE BOOKING</center></font></b></p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+   
+        <div>
+    
+           
+	<form>
+ <center>
+	<b><font color="black">ENTER YOUR LOGIN INFORMATION</font></b><br><br> 
+	  
+            <b><font color="inkblue">FROM</font></b> <font color="red">*</font>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name1" id="name"/><br><br>
+  
+    		<b><font color="inkblue">DESTINATION</font></b><font color="#FF0000">*</font>
+	  	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="password1" id="password"/><br><br>
+  </td>
+                        <b><font color="inkblue">ECONOMY</font></b><font color="#FF0000">*</font>
+	    
+
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name1" id="sample"/><br><br>
+   </font> </b></td>
+            </center><center><b>&nbsp;&nbsp;<font color="inkblue">DEPARTURE</font><font color="#FF0000">*</font>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="date" size="1" style="font-size: 10px;">
+ <option selected value="">DATE</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                              <option value="13">13</option>
+                              <option value="14">14</option>
+                              <option value="15">15</option>
+                              <option value="16">16</option>
+                              <option value="17">17</option>
+                              <option value="18">18</option>
+                              <option value="19">19</option>
+                              <option value="20">20</option>
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                              <option value="23">23</option>
+                              <option value="24">24</option>
+                              <option value="25">25</option>
+                              <option value="26">26</option>
+                              <option value="27">27</option>
+                              <option value="28">28</option>
+                              <option value="29">29</option>
+                              <option value="30">30</option>
+                              <option value="31">31</option>
+                            </select>  
+                        <select name="month" size="1" style="font-size: 10px;">
+                              <option value="">MM</option>
+                              <option value="January">Jan</option>
+                              <option value="February">Feb</option>
+                              <option value="March">Mar</option>
+                              <option value="April">Apr</option>
+                              <option value="May">May</option>
+                              <option value="June">Jun</option>
+                              <option value="July">Jul</option>
+                              <option value="August">Aug</option>
+                              <option value="September">Sep</option>
+                              <option value="October">Oct</option>
+                              <option value="November">Nov</option>
+                              <option value="December">Dec</option>
+                            </select>
+                         
+                            <select name="year" size="1" style="font-size: 10px;">
+                              <option value="">YYYY</option>
+                              <option value="2015">2015</option>
+                              <option value="2016">2016</option>
+                            </select></center>
+<center><br><br></font><b>&nbsp;&nbsp;<font color="inkblue"><b>RETURN</b></font><font color="#FF0000">*</font>
+                            
+                      
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="date" size="1" style="font-size: 10px;">
+ <option selected value="">DATE</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                              <option value="13">13</option>
+                              <option value="14">14</option>
+                              <option value="15">15</option>
+                              <option value="16">16</option>
+                              <option value="17">17</option>
+                              <option value="18">18</option>
+                              <option value="19">19</option>
+                              <option value="20">20</option>
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                              <option value="23">23</option>
+                              <option value="24">24</option>
+                              <option value="25">25</option>
+                              <option value="26">26</option>
+                              <option value="27">27</option>
+                              <option value="28">28</option>
+                              <option value="29">29</option>
+                              <option value="30">30</option>
+                              <option value="31">31</option>
+                            </select>  
+                        <select name="MONTH" size="1" style="font-size: 10px;">
+                              <option value="">MM</option>
+                              <option value="January">Jan</option>
+                              <option value="February">Feb</option>
+                              <option value="March">Mar</option>
+                              <option value="April">Apr</option>
+                              <option value="May">May</option>
+                              <option value="June">Jun</option>
+                              <option value="July">Jul</option>
+                              <option value="August">Aug</option>
+                              <option value="September">Sep</option>
+                              <option value="October">Oct</option>
+                              <option value="November">Nov</option>
+                              <option value="December">Dec</option>
+                            </select>
+                          
+                            <select name="YEAR" size="1" style="font-size: 10px;">
+                              <option value="">YYYY</option>
+                              <option value="2015">2015</option>
+                              <option value="2016">2016</option>
+                            </select></center>
+
+
+
+
+
+	
+       </div>
+  <br><br><center><input type="submit" value="BOOK" onclick="alert('booked succesfully')" /></center>
+             <br><br><center><input type="button" onclick="location.href='file:///C:/Users/HP/Desktop/IP%20PROJECT/tours%20final/search.html'" value="SEARCH" /></center>
+
+
+      	
+</form> 
+
+
+  
+<div class="fr w20">
+	<p class="h dif b large bdrB dashed p2px pb5px"><font face="comic sans ms",font size="5px",font color="blue">TRAVEL SERVICES</font></p>
+	<br class="lh07em">
+	<nav id="bml">	
+	<ul class="ul0 uo">
+			<li><b></b> <a href="http://www.aa.com"><font color="black">Airline Ticketing Agents</font></a></li>
+				<li><b></b><a href="file:///C:/xampp/htdocs/babu/bus.html"><font color="black">Bus Ticketing Services</font></a></li>
+				<li><b></b> <a href="http://www.ccrentals.co.nz"><font color="black">Car & Coach Rental</font></a></li>
+				<li><b></b> <a href="http://www.expedia.co.in/hotels"><font color="black">Hotel Booking Agents</font></a></li>
+				<li><b></b> <a href="http://www.travisa.com"><font color="black">Passport & Visa Services</font></a></li>
+				<li><b></b> <a href="http://www.irctc.co.in"><font color="black">Rail Ticketing Agents</font></a></li>
+				<li><b></b> <a href="http://www.thomascook.in"><font color="black">Tour Operators</font></a></li>
+				<li><b></b> <a href="http://www.travelinsure.com"><font color="black">Travel Insurance Agents</font></a></li>
+			</ul>
+	</nav>
+	</div>
+	<p class="cb"></p>
+	<br /> </div>
+
+
+
+
+    </section> 
+</div>
+
+<div id="footer">
+<br>
+Copyright ©my ticket booking.co.in.ltd.       </br>       
+<br>  All rights Reserved.   </br>   
+  </div>
+  </body>
+
+</html>

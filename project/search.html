@@ -1,0 +1,192 @@
+<html>
+<head>
+<style>
+
+#header {
+    background-color:#00008B;
+    color:white;
+    text-align:center;
+    padding:5px;
+    }
+#nav {
+    line-height:30px;
+    background-color:#CD5C5C;
+    height:1000px;
+    width:250px;
+    float:left;
+    padding:5px;	      
+}
+
+#section {
+height:500px;
+width:1200px;
+    background-image:"dd.jpg";
+    float:left;
+    padding:10px;	 	 
+}
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+}
+#coolMenu li a {
+display: block;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 0.3em;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#coolMenu ul li a {
+    width: 200px;
+}
+#coolMenu li:hover ul {
+    display: block;
+}
+#coolMenu {
+    font-family: Arial;
+    font-size: 12px;
+    background: #2f8be8;
+}
+#coolMenu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#coolMenu > li:hover > a {
+    background: #f09d28;
+    color: #000;
+}
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: #f09d28;
+}
+#coolMenu ul li a {
+    color: #000;
+}
+#coolMenu ul li:hover a {
+    background: #ffc97c;
+}
+#section {
+height:500px;
+width:900px;
+    float:left;
+    padding:10px;	 	 
+}
+
+
+#footer {
+    background-color:#000066;
+height:120px;
+width:1680px;
+   color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+</style>
+</head>
+<script language="JavaScript" >
+
+function getSubmit(){
+var xmlhttp;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET","aar.php?name="+document.getElementById("name").value+"&password="+document.getElementById("password").value+"&sample="+document.getElementById("sample").value,false);
+xmlhttp.send(null);
+}
+</script>
+ 
+  <body background="wall1.jpg">
+   
+<div id="header">
+<h1><font face="algerian">Escape to Paradise</font></h1>
+<h6>FLY ANYWHERE!!!FLY EVERYWHERE!!!
+</div>
+<div id="nav">
+TOURS<br>
+PACKAGES<br>
+OFFERS<br>
+TRAVEL INFORMATIONS<br>
+FLIGHT FARES<BR>
+</div>
+<div id="section">
+<ul id="coolMenu">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">TOURS</a></li>
+    <li>
+        <a href="#">HOTELS</a>
+        <ul>
+            <li><a href="http://in.hotels.com/ho364424/hotel-helliniko-paros-town-greece/">Helleniko</a></li>
+            <li><a href="http://www.radissonblu.com">Radisson Blu</a></li>
+            <li><a href="http://www.orientalhotel.jp/en">Kobe Japan</a></li>
+        </ul>
+    </li>
+    <li><a href="#">ABOUT US</a></li>
+    <li><a href="#">CONTACTS</a></li>
+</ul>
+
+<div>
+<marquee behavior="alternate" direction="right" width="1100px">
+<img src="aa.jpg" width="250" height="100" alt="" />
+<img src="bb.jpg" width="250" height="100" alt="" />
+<img src="cc.jpg" width="250" height="100" alt="" />
+<img src="dd.jpg" width="250" height="100" alt="" />
+</marquee>
+<div>
+<table width="1150" height="200" border="0" align="center" bgcolor="transparent" >
+<tr bgcolor="transparent">
+<td width="232" height="67"><font color="navy" size="5px"><b>FLIGHTS</b></font></td>
+<td width="232"><form method="get" action="http://www.airarabia.com/en"><input type=submit value="AIR ARABIA" style="width:75%"></form></td>
+<td width="232"><form method="get" action="http://www.airindia.in/"><input type=submit value="AIR INDIA" style="width:75%"></form> </td>
+<td width="232"><form method="get" action="http://www.spicejet.com/"><input type=submit value="SPICEJET" style="width:75%"></form></td>
+<td width="232"><form method="get" action="https://book.goindigo.in/"><input type=submit value="INDIGO" style="width:75%"></form></td>
+</tr>
+<tr bgcolor="transparent">
+<td width="232" height="67"><font color="navy" size="5px"><b>TRAINS</b></font></td>
+<td width="232"><form method="get" action="http://www.amtrak.com/acela-express-train"><input type=submit value="ACELA EXPRESS" style="width:75%"></form></td>
+<td width="232"><form method="get" action="http://www.eurostar.com/"><input type=submit value="EUROSTAR EXPRESS" style="width:75%"></form></td>
+<td width="232"><form method="get" action="http://www.goldeneagleluxurytrains.com/"><input type=submit value="GOLDEN EAGLE" style="width:75%"></form></td>
+<td width="232"><form method="get" action="http://www.greatsouthernrail.com.au/trains/the_indian_pacific/"><input type=submit value="INDIAN PACIFIC" style="width:75%"></form></td>
+</tr>
+<tr bgcolor="transparent">
+<td height="67"><font color="navy" size="5px"><b>CAR SERVICES</b></font></td>
+<td><form method="get" action="https://www.olacabs.com/"><input type=submit value="OLA" style="width:75%"></form></td>
+<td><form method="get" action="http://www.ntltaxi.com/"><input type=submit value="NTL" style="width:75%"></form></td>
+<td><form method="get" action="http://www.yellowlondontaxi.ca/"><input type=submit value="LONDON TAXIS" style="width:75%"></form></td>
+<td><form method="get" action="https://www.uber.com/"><input type=submit value="UBER" style="width:75%"></form></td>
+</tr>
+</table>
+
+
+</div>
+
+
+</nav>
+	</div>
+	<p class="cb"></p>
+	<br /> </div>
+
+
+
+
+    </section> 
+</div>
+
+<div id="footer">
+<br>
+Copyright ©my ticket booking.co.in.ltd.       </br>       
+<br>  All rights Reserved.   </br>   
+  </div>
+  </body>
+
+</html>
